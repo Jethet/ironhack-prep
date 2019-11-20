@@ -23,9 +23,21 @@ iterate through the array, but only print out the foods with an even index.
 
 const myArray = ["bravas", "pimientos", "setas", "croquetes", "tortilla", "albondigas"];
 
-myArray.forEach(index => {
+for (let i = 0; i < myArray.length; i++){
+  if (i % 2 === 0) {
+    console.log(myArray[i]);
+  }
+}
+
+
+
+
+
+/*
+myArray.forEach(element => {
   if (myArray.length % 2 === 0){
-  console.log(`My favourite food is ${index}.`);
-  index++;
+  console.log(element);
+  element++;
   }
 });
+*/
