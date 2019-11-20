@@ -3,7 +3,7 @@ Perform a few operations on the given array:
   add two of your favorite animals to the end of the array,
   remove the first two elements of the array,
   replace the last element in the array with the word “last”.
-
+*/
 const animalArray = ["dog", "cat", "fish"];
 animalArray.push("falcon", "whale");
 console.log(animalArray);
@@ -31,27 +31,23 @@ let arr = ["bcn", "mia", "sao", "mex", "par", "miami", "ams", "ber", "paris", "l
 console.log(arr.includes(word));
 
 // Loop through arr but stop looping after "miami" is found
-let word = "miami";
-let arr = ["bcn", "mia", "sao", "mex", "par", "miami", "ams", "ber", "paris", "lis", "mad"];
+let word2 = "miami";
+let arr2 = ["bcn", "mia", "sao", "mex", "par", "miami", "ams", "ber", "paris", "lis", "mad"];
 
-for (let i = 0; i <= arr.length; i++){
-  if (arr[i] !== "miami"){
-    console.log(arr[i]);
+for (let i = 0; i <= arr2.length; i++){
+  if (arr2[i] !== "miami"){
+    console.log(arr2[i]);
   } else {
-    console.log(arr[i]);
+    console.log(arr2[i]);
     break;
   }
 }
-*/
-
 
 //Given array of numbers, calculate the sum:
-
 const prices = [10.99, 44.56, 112.79, 3, 5];
 let sum = 0; // start value for the sum
 
 for (let i = 0; i < prices.length; i++) {
   console.log(Math.round((sum += prices[i]) * 10) / 10);
 }
-
 //Bonus: Round the sum to one decimal.
