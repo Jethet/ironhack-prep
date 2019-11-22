@@ -38,5 +38,27 @@ let favCities = ["Barcelona", "Bangalore", "London", "New York", "Boston", "Pari
 printArrElements([favCities]);
 let favFood = ["lentilsoup", "bravas", "albondigas", "sate", "sauerkraut"];
 printArrElements([favFood]);
+
+
+// Define a function printEvens(someArr) and use the ironCities array and print only
+// its even elements. The output should be:
+// Amsterdam
+// Berlin
+// Madrid
+// Miami
+// Sao Paulo
+
+function printEvens(someArr){
+    for(let i = 0; i < someArr.length; i++){
+        if (i % 2 === 0){
+        console.log(someArr[i]);
+        }
+    }
+}
+printEvens(["Amsterdam", "Barcelona", "Berlin", "Lisbon", "Madrid", "Mexico City", "Miami", "Paris", "Sao Paulo" ]);
 */
 
+/* Define a function that will receive an array as an argument and calculate a sum of all
+   its elements. Example, if we pass the following array to that function: 
+   const prices = [5, 7.99, 9.99, 0.99, 21], it should return 44.97 as output. 
+   How would you concatenate $ sign in front of the sum? */
