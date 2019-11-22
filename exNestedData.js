@@ -44,7 +44,7 @@ console.log(products); */
 
 console.log(course.type[0]);
 console.log(course.topics[0]);
-console.log(course.topics[5]); */
+console.log(course.topics[5]);
 
 let student = {
   firstName: "Ana",
@@ -68,3 +68,13 @@ console.log(student.address.street); // => Happy Street
 console.log(student.address.city = "Madrid");
 // => Ana moved from Barcelona to Madrid to take part-time Web Development course.
 console.log(student);  // City has changed into Madrid.
+
+const ironCampuses = [
+  ["Mexico City", "Miami", "Sao Paulo"],
+  ["Amsterdam", "Barcelona", "Berlin", "Lisbon", "Madrid", "Paris"]
+];
+
+console.log(ironCampuses[0][1]); // => Miami
+console.log(ironCampuses[1][0]); // => Amsterdam
+console.log(ironCampuses[1][5]); // => Paris
+*/
