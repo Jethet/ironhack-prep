@@ -58,7 +58,28 @@ function printEvens(someArr){
 printEvens(["Amsterdam", "Barcelona", "Berlin", "Lisbon", "Madrid", "Mexico City", "Miami", "Paris", "Sao Paulo" ]);
 */
 
+
 /* Define a function that will receive an array as an argument and calculate a sum of all
    its elements. Example, if we pass the following array to that function: 
    const prices = [5, 7.99, 9.99, 0.99, 21], it should return 44.97 as output. 
    How would you concatenate $ sign in front of the sum? */
+
+
+
+/* Define a function stringToLetters() that receives a string as an argument and returns an 
+array of its letters. Example:
+stringToLetters("hello");
+// => expected output:
+// ["h", "e", "l", "l", "o"];
+*/
+
+
+/*
+Define a function that will:
+    count from 1 to 100,
+    on numbers divisible with 4 print “Hey”,
+    on numbers divisible with 6 print “There”,
+    on numbers divisible with both 4 and 6 print “Ironhack”,
+    skip numbers divisible with 7,
+    on the number that represents your age add ! (ex. 34!).
+*/
