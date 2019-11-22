@@ -18,9 +18,25 @@ printToTwenty();
 // Define a function printNumbers() that receives one argument and prints the numbers
 // from 0 to whatever number we pass to it as an argument
 function printNumbers(num){
-    for(i = 0; i <= num; i++){
+    for(let i = 0; i <= num; i++){
         console.log(i);
     }
 }
 printNumbers(12);
+
+
+// Define a function printArrElements(someArr) that will loop through array and print
+// all the elements of that array. Use the following array to pass it as an argument 
+function printArrElements(someArr){
+    for(let i = 0; i < someArr.length; i++){
+        console.log(someArr[i]);
+    }
+}
+let ironCities = ["Amsterdam", "Barcelona", "Berlin", "Lisbon", "Madrid", "Mexico City", "Miami", "Paris", "Sao Paulo" ];
+printArrElements([ironCities]);
+let favCities = ["Barcelona", "Bangalore", "London", "New York", "Boston", "Paris"];
+printArrElements([favCities]);
+let favFood = ["lentilsoup", "bravas", "albondigas", "sate", "sauerkraut"];
+printArrElements([favFood]);
 */
+
