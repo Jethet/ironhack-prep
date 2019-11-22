@@ -36,7 +36,7 @@ console.log(products); */
         the most familiar topic
         the least familiar topic
 */
-let course = {
+/*let course = {
   name: "Web Development",
   type: ["full-time", "part-time"],
   topics: ["HTML/CSS & Responsive Design", "JavaScript", "MongoDB", "Node", "Express", "React"]
@@ -44,4 +44,27 @@ let course = {
 
 console.log(course.type[0]);
 console.log(course.topics[0]);
-console.log(course.topics[5]);
+console.log(course.topics[5]); */
+
+let student = {
+  firstName: "Ana",
+  lastName: "Blair",
+  course: {
+    name: "Web Development",
+    type: "part-time"
+  },
+  attendedIn: "Madrid",
+  address: {
+    street: "Happy Street",
+    number: 123,
+    city: "Barcelona",
+    zip: 08015,
+    country: "Spain"
+  }
+};
+
+console.log(student.course.name); // => Web Development
+console.log(student.address.street); // => Happy Street
+console.log(student.address.city = "Madrid");
+// => Ana moved from Barcelona to Madrid to take part-time Web Development course.
+console.log(student);  // City has changed into Madrid.
