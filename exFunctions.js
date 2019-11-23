@@ -93,3 +93,20 @@ Define a function that will:
     skip numbers divisible with 7,
     on the number that represents your age add ! (ex. 34!).
 */
+function printCount(num){
+    for (let i = 1; i <= num; i++){
+        if (i === 99) {
+            console.log("You can't be THAT old??!!");
+        } else if (i % 7 === 0) { continue; }
+        else if (i % 4 === 0 && i % 6 === 0){
+            console.log("Ironhack");
+        } else if (i % 4 === 0) {
+            console.log("Hey");
+        } else if (i % 6 === 0){
+                console.log("There");
+        } else {
+            console.log(i);
+        }
+    }
+}
+printCount(100);
