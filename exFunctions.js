@@ -76,8 +76,13 @@ const prices = arraySum([5, 7.99, 9.99, 0.99, 21]);
 // array of its letters. Example:
 // stringToLetters("hello");
 //  => expected output: ["h", "e", "l", "l", "o"];
-
-
+function stringToLetters(string){
+    let text = string.split("");
+    for (let i = 0; i < string.length; i++){
+    }
+    console.log(text);
+}
+stringToLetters("hello");
 
 /*
 Define a function that will:
