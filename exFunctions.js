@@ -56,22 +56,27 @@ function printEvens(someArr){
     }
 }
 printEvens(["Amsterdam", "Barcelona", "Berlin", "Lisbon", "Madrid", "Mexico City", "Miami", "Paris", "Sao Paulo" ]);
+
+
+// Define a function that will receive an array as an argument and calculate a sum of all
+//  its elements. Example, if we pass the following array to that function: 
+// const prices = [5, 7.99, 9.99, 0.99, 21], it should return 44.97 as output. 
+// How would you concatenate $ sign in front of the sum? 
+   function arraySum(array){
+    let result = 0
+    for(let i = 0; i < array.length; i++){
+         result += array[i];
+    }         
+    console.log("$" + `${result}`);
+}
+const prices = arraySum([5, 7.99, 9.99, 0.99, 21]);
 */
 
+// Define a function stringToLetters() that receives a string as an argument and returns an 
+// array of its letters. Example:
+// stringToLetters("hello");
+//  => expected output: ["h", "e", "l", "l", "o"];
 
-/* Define a function that will receive an array as an argument and calculate a sum of all
-   its elements. Example, if we pass the following array to that function: 
-   const prices = [5, 7.99, 9.99, 0.99, 21], it should return 44.97 as output. 
-   How would you concatenate $ sign in front of the sum? */
-
-
-
-/* Define a function stringToLetters() that receives a string as an argument and returns an 
-array of its letters. Example:
-stringToLetters("hello");
-// => expected output:
-// ["h", "e", "l", "l", "o"];
-*/
 
 
 /*
