@@ -59,7 +59,7 @@ printEvens(["Amsterdam", "Barcelona", "Berlin", "Lisbon", "Madrid", "Mexico City
  const prices = [5, 7.99, 9.99, 0.99, 21], it should return 44.97 as output. 
  How would you concatenate $ sign in front of the sum? */
    function arraySum(array){
-    let result = 0
+    let result = 0;
     for(let i = 0; i < array.length; i++){
          result += array[i];
     }         
