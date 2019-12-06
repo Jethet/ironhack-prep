@@ -100,5 +100,6 @@ But why is the message not printing that the rover moves out of the grid with th
 manageRover(rover, "f");
 /* Result is:
 Rover facing direction N, x is 0 and y is -1
-The rover should not move from 0 to -1: this should not be possible and the message "not outside the grid" should be printed.
+I do not understand this. The rover should not move from 0 to -1: this should not be possible because the 'if' statement limits the values of x and y.
+The message "not outside the grid" should be printed.
 */
