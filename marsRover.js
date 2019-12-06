@@ -1,7 +1,8 @@
 const rover = {
     direction: "N",
     x: 0,
-    y: 0
+    y: 0,
+    travelLog: [{x:0, y:0}]
 };
 
 function turnLeft(rover){
@@ -72,10 +73,10 @@ function manageRover(rover, directions){
                 moveForward(rover, orientation);
                 console.log(`Rover facing direction ${rover.direction}, x is ${rover.x} and y is ${rover.y}`);
                 break;
-            
         }
-        
     }
+    rover.travelLog.push({x: rover.x, y: rover.y});
+    console.log(rover.travelLog);
 }
 //TWO EXAMPLES:
 
@@ -100,6 +101,5 @@ But why is the message not printing that the rover moves out of the grid with th
 manageRover(rover, "f");
 /* Result is:
 Rover facing direction N, x is 0 and y is -1
-I do not understand this. The rover should not move from 0 to -1: this should not be possible because the 'if' statement limits the values of x and y.
-The message "not outside the grid" should be printed.
+The rover should not move from 0 to -1: this should not be possible and the message "not outside the grid" should be printed.
 */
