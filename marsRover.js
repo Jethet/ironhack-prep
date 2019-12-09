@@ -39,24 +39,23 @@ function turnRight(rover){
 }
 
 function moveForward(rover){
-    if (rover.x >= 0 && rover.x <= 9 && rover.y >= 0 && rover.y <= 9){
-        if (rover.direction === "N"){
-            rover.y--;
-            //console.log(`Position is: ${rover.x}, ${rover.y}`);
-        } else if (rover.direction === "S"){
-            rover.y++;
-            //console.log(`Position is: ${rover.x}, ${rover.y}`);
-        } else if (rover.direction === "W"){
-            rover.x--;
-            //console.log(`Position is: ${rover.x}, ${rover.y}`);
-        } else if (rover.direction === "E"){
-            rover.x++;
-            //console.log(`Position is: ${rover.x}, ${rover.y}`);
-        } 
-    }
-    else {
-        console.log("The rover cannot be placed outside the grid.");
-    }
+    if (rover.direction === "N"){
+        rover.y--;
+        //console.log(`Position is: ${rover.x}, ${rover.y}`);
+    } else if (rover.direction === "S"){
+        rover.y++;
+        //console.log(`Position is: ${rover.x}, ${rover.y}`);
+    } else if (rover.direction === "W"){
+        rover.x--;
+        //console.log(`Position is: ${rover.x}, ${rover.y}`);
+    } else if (rover.direction === "E"){
+        rover.x++;
+        //console.log(`Position is: ${rover.x}, ${rover.y}`);
+    } 
+
+else {
+    console.log("The rover cannot be placed outside the grid.");
+}
 }
 
 function moveBackwards(rover){
@@ -75,10 +74,9 @@ function moveBackwards(rover){
     }
 }
    
-
 function manageRover(rover, directions){
     for (let i = 0; i <= directions.length; i++){
-        if (rover.x >= 0 && rover.x <= 9 && rover.y >= 0 && rover.y <= 9){
+        if (rover.x >= 0 && rover.x < 10 && rover.y >= 0 && rover.y < 10){
             let orientation = directions[i];
             if (["l", "r", "f", "b"].includes(orientation)){
                 switch(orientation){
@@ -112,7 +110,7 @@ function manageRover(rover, directions){
     }   
 }
 
-manageRover(rover, "brffl");
+manageRover(rover, "rffrfflff");
 
 //With some directions, such as the above, I get the message: "Please use correct directions: f, b, r and l."
 //I have tried several changes in the code but have not found the error.
