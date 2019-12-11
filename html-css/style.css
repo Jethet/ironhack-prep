@@ -44,6 +44,8 @@ p {
 #cover-box1 {
     background-color: navy;
     font-weight: bolder;
+    letter-spacing: 3px;
+    text-align: center;
     color: pink;
     width: 100px;
     height: 50px;
@@ -52,7 +54,8 @@ p {
 #cover-box2 {
     background-color: grey;
     text-transform: uppercase;
+    text-align: right;
     color: red;
-    width: 100px;
-    height: 50px;
+    width: 200px;
+    height: 80px;
 }
