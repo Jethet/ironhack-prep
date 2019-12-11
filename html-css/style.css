@@ -1,14 +1,49 @@
+body {
+    background-color: #00d1ae;
+}
 
 h1 {
-    color: pink; 
+    color: #0000ff; 
     text-decoration: underline; 
    }
+
+h2 {
+    color: blueviolet;
+}
+
+p {
+    font-size: 18px;
+    width: 400px;
+    text-indent: 50px;
+    text-align: justify;
+}
    
-   p {
-     font-size: 18px;
-     width: 400px;
-     text-indent: 50px;
-     text-align: justify;
-   }
-   
-   
+.menu {
+    width: 400px;
+    height: 50px;
+    background-color: white;
+}
+
+.content {
+    width: 400px;
+    height: 200px;
+    background-color: red;
+}
+
+.important {
+    font-weight: bold;
+}
+
+#cover-box1 {
+    background-color: black;
+    color: pink;
+    width: 100px;
+    height: 50px;
+}
+
+#cover-box2 {
+    background-color: grey;
+    color: red;
+    width: 100px;
+    height: 50px;
+}
