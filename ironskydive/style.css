@@ -8,5 +8,39 @@ html, body {
     font: Roboto;
     size: 10px;
     line-height: 3.5em;
-    weight: 300;
+    font-weight: 300;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font: Roboto condensed;
+  }
+
+  h1 {
+    font-size: 9em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    font-size: 5em;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 4em;
+  }
+  
+  h3 {
+    font-size: 4.2em;
+    text-align: center;
+    line-height: 1em;
+  }
+  
+  h4 {
+    font-size: 1.5em;
+    letter-spacing: 0.4px;
+    line-height: 1em;
+  }
+  
+  h5 {
+    font-size: 1.2em;
+    line-height: 1em;
   }
