@@ -1,7 +1,11 @@
+* {
+    color: green;
+}
+
 body {
     background-color: #00d1ae;
 }
-
+/*
 h1 {
     color: #0000ff; 
     text-decoration: underline; 
@@ -10,7 +14,7 @@ h1 {
 h2 {
     color: blueviolet;
 }
-
+*/
 p {
     font-size: 18px;
     width: 400px;
@@ -35,7 +39,7 @@ p {
 }
 
 #cover-box1 {
-    background-color: black;
+    background-color: navy;
     color: pink;
     width: 100px;
     height: 50px;
