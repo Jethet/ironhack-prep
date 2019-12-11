@@ -5,7 +5,7 @@
 body {
     background-color: #00d1ae;
 }
-/*
+
 h1 {
     color: #0000ff; 
     text-decoration: underline; 
@@ -13,8 +13,9 @@ h1 {
 
 h2 {
     color: blueviolet;
+    text-decoration: underline dotted blue;
 }
-*/
+
 p {
     width: 400px;
     text-indent: 50px;
@@ -23,6 +24,7 @@ p {
    
 .menu {
     font-size: 40px;
+    font-style: italic;
     width: 400px;
     height: 50px;
     background-color: white;
@@ -41,6 +43,7 @@ p {
 
 #cover-box1 {
     background-color: navy;
+    font-weight: bolder;
     color: pink;
     width: 100px;
     height: 50px;
@@ -48,6 +51,7 @@ p {
 
 #cover-box2 {
     background-color: grey;
+    text-transform: uppercase;
     color: red;
     width: 100px;
     height: 50px;
