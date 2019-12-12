@@ -74,6 +74,18 @@ h5 {
     color: white;
 }
 
-.gen-info-par {
-    
+.text {
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+}
+
+.link-btn {
+    background-color: rgb(67, 163, 230);
+    color: white;
+    font-family: Roboto Condensed;
+    font-size: 2em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
 }
