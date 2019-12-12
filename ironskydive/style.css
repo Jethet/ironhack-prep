@@ -65,6 +65,7 @@ h5 {
 
 .nav-bar-ul li {
     list-style-type: none;
+    text-align: center;
 }
 
 .header {
@@ -72,6 +73,7 @@ h5 {
     position: 0, 0;
     background-repeat: no-repeat;
     size: cover;
+    padding-top: 50px;
 }
 
 .quote {
@@ -87,6 +89,7 @@ h5 {
     font-size: 2em;
     font-weight: 100;
     text-align: center;
+    margin: 20px 0 20px 0;
 }
 
 .link-btn {
@@ -141,4 +144,10 @@ h5 {
 
 .footer ul {
     list-style: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 75px 0;
 }
