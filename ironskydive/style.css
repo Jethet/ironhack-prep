@@ -119,6 +119,16 @@ h5 {
     width: 125px;
 }
 
+#team {
+    padding: 75px 0;
+    margin: 0 auto;
+}
+
+#team p {
+    width: 60%;
+    margin: 10px auto;
+}
+
 #team .section-text {
     font-size: 1.5em;
     font-weight: 700;
@@ -133,6 +143,11 @@ h5 {
 #team img {
     width: 250px;
     height: 180px;
+}
+
+#team hr {
+    margin: 20px auto 30px auto;
+    width: 40%;
 }
 
 .footer {
