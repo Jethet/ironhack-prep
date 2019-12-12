@@ -2,74 +2,78 @@
 html, body {
     margin: 0;
     padding: 0;
-  }
+}
 
-  body {
+body {
     font: Roboto;
     size: 10px;
     line-height: 3.5em;
     font-weight: 300;
-  }
+}
 
-  h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     font: Roboto condensed;
-  }
+}
 
-  h1 {
+h1 {
     font-size: 9em;
     text-align: center;
     text-transform: uppercase;
-  }
-  
-  h2 {
+}
+
+h2 {
     font-size: 5em;
     text-align: center;
     text-transform: uppercase;
     line-height: 4em;
     color: white;
     text-shadow: #020819 8px -20px 9px;
-  }
-  
-  h3 {
+}
+
+h3 {
     font-size: 4.2em;
     text-align: center;
     line-height: 1em;
-  }
-  
-  h4 {
+}
+
+h4 {
     font-size: 1.5em;
     letter-spacing: 0.4px;
     line-height: 1em;
-  }
-  
-  h5 {
+}
+
+h5 {
     font-size: 1.2em;
     line-height: 1em;
-  }
+}
 
-  .nav-bar {
+.nav-bar {
     background-color: rgb(25, 33, 41);
-    
-  }
 
-  .nav-bar a{
+}
+
+.nav-bar a{
     color: white;
     text-decoration: none;
     font-size: 2em;
-  }
+}
 
-  .header {
+.header {
     background-image: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
     position: 0, 0;
     background-repeat: no-repeat;
     size: cover;
-  }
+}
 
-  .quote {
+.quote {
     font-size: 2.5em;  
-  }
+}
 
-  .dark-background {
-      background-color: rgb(25, 33, 41);
-      color: white;
-  }
+.dark-background {
+    background-color: rgb(25, 33, 41);
+    color: white;
+}
+
+.gen-info-par {
+    
+}
