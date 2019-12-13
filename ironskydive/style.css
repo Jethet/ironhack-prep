@@ -46,6 +46,8 @@ h4 {
 h5 {
     font-size: 1.2em;
     line-height: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .nav-bar {
@@ -75,6 +77,7 @@ h5 {
     background-repeat: no-repeat;
     size: cover;
     padding-top: 50px;
+    height: 650px;
 }
 
 .quote {
@@ -90,7 +93,8 @@ h5 {
     font-size: 2em;
     font-weight: 100;
     text-align: center;
-    margin: 20px 0 20px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .link-btn {
@@ -130,7 +134,7 @@ h5 {
 }
 
 #team .section-text {
-    font-size: 1.5em;
+    font-size: 1.9em;
     font-weight: 700;
     text-align: center;
 }
@@ -153,11 +157,8 @@ h5 {
 .footer {
     text-align: center;
     font-size: 1.9em;
-}
-
-.address {
-    font-style: normal;
-    font-size: 0.8em;
+    padding: 40px 100px 40px 100px;
+    margin-bottom: 25px;
 }
 
 .footer a {
@@ -167,10 +168,28 @@ h5 {
 
 .footer ul {
     list-style: none;
+    padding: 0;
+}
+
+.address {
+    font-style: normal;
+    font-size: 0.8em;
+    margin-bottom: 30px;
 }
 
 .container {
     width: 1200px;
     margin: 0 auto;
     padding: 75px 0;
+}
+
+.schedule-table {
+    margin: 0 auto 40px auto;
+    font-size: 1.5em;
+}
+
+.schedule-table th, td {
+    border-bottom: solid 1px black;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
 }
