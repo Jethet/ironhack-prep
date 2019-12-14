@@ -103,6 +103,12 @@ h5 {
     width: 370px;
 }
 
+#structure > div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 .dark-background {
     background-color: rgb(25, 41, 40);
