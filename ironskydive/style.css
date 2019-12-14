@@ -155,6 +155,18 @@ h5 {
     margin: 0 auto;
 }
 
+#team > div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#team > div > article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 #team p {
     width: 60%;
     margin: 10px auto;
@@ -186,6 +198,9 @@ h5 {
     font-size: 1.9em;
     padding: 40px 100px 40px 100px;
     margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer a {
@@ -219,4 +234,9 @@ h5 {
     border-bottom: solid 1px black;
     padding: 5px 10px 5px 10px;
     text-align: center;
+}
+
+.map-frame {
+    height: 375px;
+    width: 60%;
 }
