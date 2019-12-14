@@ -133,6 +133,32 @@
         </table>
         
         <h3>Schedule the timeslot</h3>
+        <form class="slot-form" action="/register" method="POST"></form>
+        <div class="slot-form-container">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="Enter your email">
+        </div>
+        <div class="slot-form-container">
+            <label for="participants">Participants</label>
+            <input type="number" name="participants" placeholder="Number of participants">
+        </div>
+        <div class="slot-form-container">
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date">
+        </div>
+        <div class="slot-form-container">
+            <label for="time">Time</label>
+            <select name="Time" id="">
+                <option value="early">9:00-11:00</option>
+                <option value="mid">12:00-14:00</option>
+                <option value="late">15:00-17:00</option>
+            </select>
+        </div>
+        <div class="slot-form-container">
+            <label for="submit">Submit</label>
+            <input type="button" name="submit">
+        </div>
+        
         
         </section>
             
