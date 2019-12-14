@@ -53,6 +53,7 @@ h5 {
 .nav-bar {
     background-color: rgb(25, 33, 41);
     padding: 14px 0 14px 0;
+    
   }
   
 .nav-bar a{
@@ -64,6 +65,8 @@ h5 {
 .nav-bar-ul {
     width: 1200px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .nav-bar-ul li {
@@ -78,11 +81,28 @@ h5 {
     size: cover;
     padding-top: 50px;
     height: 650px;
+    position: relative;
 }
 
 .quote {
-    font-size: 2.5em;  
+    font-size: 2.5em;
+    position: absolute;
+    left: 10%;
+    bottom: 100px;
 }
+
+#general-information {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#general-information .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+}
+
 
 .dark-background {
     background-color: rgb(25, 41, 40);
@@ -105,6 +125,7 @@ h5 {
     letter-spacing: 0.5px;
     text-align: center;
     text-decoration: none;
+    padding: 10px 30px 10px 30px;
 }
 
 .service-box {
