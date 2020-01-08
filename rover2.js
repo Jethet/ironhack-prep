@@ -140,3 +140,5 @@ function manageRover(rover, directions){
         
     }
 }
+
+manageRover(rover, "rrff");
