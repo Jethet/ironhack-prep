@@ -45,19 +45,19 @@ function moveForward(rover){
             rover.y --;
             console.log("This move is outside the grid.");
         }
- 
-
     } else if (rover.direction === "W"){
         rover.x--;
-
+        if (rover.x < 0 || rover.x > 9){
+            rover.x++;
+            console.log("This move is outside the grid.");
+        }
     } else if (rover.direction === "E"){
         rover.x++;
-
-    } 
-
-else {
-    console.log("The rover cannot be placed outside the grid.");
-}
+        if (rover.x < 0 || rover.x > 9){
+            rover.x --;
+            console.log("This move is outside the grid.");
+        } 
+    }
 }
 
 function moveBackwards(rover){
@@ -67,6 +67,8 @@ function moveBackwards(rover){
         console.log(rover.travelLog);
     } else if (rover.direction === "S"){
         rover.y--;
+        rover.travelLog.push({x: rover.x, y: rover.y});
+        console.log(rover.travelLog);
  
     } else if (rover.direction === "W"){
         rover.x--;
@@ -79,7 +81,7 @@ function moveBackwards(rover){
    
 function manageRover(rover, directions){
     for (let i = 0; i < directions.length; i++){
-        let orientation = directions;
+        let orientation = directions[i];
         // if (rover.x >= 0 && rover.x < 10 && rover.y >= 0 && rover.y < 10){
         //     if ((rover.y + 1) === obstacle.y || (rover.x + 1) === obstacle.x || (rover.y - 1) === obstacle.y || (rover.x - 1) === obstacle.x){
         //     console.log("You cannot move due to an obstacle");
@@ -113,4 +115,4 @@ function manageRover(rover, directions){
     }
 }
 
-manageRover(rover, "r", "r", "f", "f");
+manageRover(rover, "lf");

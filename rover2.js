@@ -44,49 +44,41 @@ function turnRight(rover){
 function moveForward(rover){
     if (rover.direction === "N"){
         rover.y--;
-        //Check collision with the grid
         if (rover.y < 0 || rover.y > 9){
           rover.y++;
           console.log("This move is outside the grid.");
         }
-        //Check collision with the obstacle
         if (rover.y === obstacle.y && rover.x === obstacle.x){
           console.log("You cannot move due to an obstacle");
         }
-        //console.log(`Position is: ${rover.x}, ${rover.y}`);
     } else if (rover.direction === "S"){
         rover.y++;
           if (rover.y < 0 || rover.y > 9){
             rover.y--;
             console.log("This move is outside the grid.");
           }
-                  //Check collision with the obstacle
         if (rover.y === obstacle.y && rover.x === obstacle.x){
           console.log("You cannot move due to an obstacle");
         }
-        //console.log(`Position is: ${rover.x}, ${rover.y}`);
+        
     } else if (rover.direction === "W"){
         rover.x--;
           if (rover.x < 0 || rover.x > 9){
             rover.x++;
             console.log("This move is outside the grid.");
-          }
-                  //Check collision with the obstacle
+          }          
         if (rover.y === obstacle.y && rover.x === obstacle.x){
           console.log("You cannot move due to an obstacle");
-        }
-        //console.log(`Position is: ${rover.x}, ${rover.y}`);
+        }     
     } else if (rover.direction === "E"){
         rover.x++;
           if (rover.x < 0 || rover.x > 9){
             rover.x--;
             console.log("This move is outside the grid.");
-          }
-          //Check collision with the obstacle
+          } 
           if (rover.y === obstacle.y && rover.x === obstacle.x){
             console.log("You cannot move due to an obstacle");
-          }
-        //console.log(`Position is: ${rover.x}, ${rover.y}`);
+          }       
     } 
 else {
     console.log("The rover cannot be placed outside the grid.");
@@ -141,4 +133,4 @@ function manageRover(rover, directions){
     }
 }
 
-manageRover(rover, "rrff");
+manageRover(rover, "rrffffffffff");
