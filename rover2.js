@@ -49,7 +49,7 @@ function moveForward(rover){
           console.log("This move is outside the grid.");
         }
         if (rover.y === obstacle.y && rover.x === obstacle.x){
-          console.log("You cannot move due to an obstacle");
+            console.log("You cannot move due to an obstacle");
         }
     } else if (rover.direction === "S"){
         rover.y++;
@@ -102,7 +102,6 @@ function moveBackwards(rover){
    
 function manageRover(rover, directions){
     for (let i = 0; i < directions.length; i++){
-        
         let orientation = directions[i];
         if (["l", "r", "f", "b"].includes(orientation)){
             switch(orientation){
@@ -133,4 +132,4 @@ function manageRover(rover, directions){
     }
 }
 
-manageRover(rover, "rrffffffffff");
+manageRover(rover, "rffrf");
