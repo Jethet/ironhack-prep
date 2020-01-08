@@ -82,7 +82,7 @@ function manageRover(rover, directions){
             if ((rover.y + 1) === obstacle.y || (rover.x + 1) === obstacle.x || (rover.y - 1) === obstacle.y || (rover.x - 1) === obstacle.x){
             console.log("You cannot move due to an obstacle");
             break; }
-            let orientation = directions[i];
+           
             if (["l", "r", "f", "b"].includes(orientation)){
                 switch(orientation){
                     case "l":
@@ -114,3 +114,5 @@ function manageRover(rover, directions){
         }
     }
 }
+
+manageRover(rover, 'zh');
