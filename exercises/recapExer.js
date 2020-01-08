@@ -45,7 +45,9 @@ let user = {
       
      function checkProperty(){
          if (property.isForSale === true){
-             console.log(`The owner, ${property.owner.firstName} ${property.owner.lastName} put the home for sale! The property has ${property.amenities.length} amenities: `); for (let i = 0; i<property.amenities.length; i++){console.log(`${i+1} - ${property.amenities[i]}`);
+             console.log(`The owner, ${property.owner.firstName} ${property.owner.lastName} put the home for sale! The property has ${property.amenities.length} amenities: `); 
+             for (let i = 0; i<property.amenities.length; i++)
+             {console.log(`${i+1} - ${property.amenities[i]}`);
             }
          } else {
              console.log(`The home in ${property.address.street} ${property.address.number} is not for sale.`);

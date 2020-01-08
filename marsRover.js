@@ -115,4 +115,4 @@ function manageRover(rover, directions){
     }
 }
 
-manageRover(rover, 'zh');
+manageRover(rover, 'f');
